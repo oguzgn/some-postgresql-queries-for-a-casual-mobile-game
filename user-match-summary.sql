@@ -3,16 +3,13 @@ select
 	au."Id" as UserId,
 	au."CountryCode" as CountryCode,
 	case
-		when au."DeviceType" = 0 then 'None'
-		when au."DeviceType" = 1 then 'Ios'
-		when au."DeviceType" = 2 then 'Android'
-		when au."DeviceType" = 3 then 'Windows'
-		when au."DeviceType" = 4 then 'Macos'
-		when au."DeviceType" = 5 then 'Linux'
-		else
-  'Unknown'
-	end
-  as DeviceType,
+	when au."DeviceType" = 0 then 'None'
+	when au."DeviceType" = 1 then 'Ios'
+	when au."DeviceType" = 2 then 'Android'
+	when au."DeviceType" = 3 then 'Windows'
+	when au."DeviceType" = 4 then 'Macos'
+	when au."DeviceType" = 5 then 'Linux'
+	else'Unknown'end as DeviceType,
 	au."DeviceModel",
 	au."IsDeleted" as IsDeleted,
 	nsa."Email" as Email,
