@@ -130,4 +130,4 @@ CASE DeviceModel
     WHEN 'iPad14,4' THEN 'iPad Pro 11 inch 4th Gen (WiFi+Cellular)'
     WHEN 'iPad14,5' THEN 'iPad Pro 12.9 inch 6th Gen (WiFi)'
     WHEN 'iPad14,6' THEN 'iPad Pro 12.9 inch 6th Gen (WiFi+Cellular)'
-Else DeviceModel END As DeviceModel
+Else DeviceModel END As DeviceModel 
