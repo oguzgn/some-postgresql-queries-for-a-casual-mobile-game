@@ -60,13 +60,13 @@ LEFT JOIN (
     SUM(p.Price) AS Revenue,
     COUNT(o.Id) AS OrderCount
   FROM
-    `xxx.db.NsOrder` o
+    `xxx.db.Order` o
   LEFT JOIN
     `xxx.db.AbpUser` au
   ON
     au.Id = o.UserId
   LEFT JOIN
-    `xxx.db.NsProduct` p
+    `xxx.db.Product` p
   ON
     p.Id = o.ProductId
   WHERE
