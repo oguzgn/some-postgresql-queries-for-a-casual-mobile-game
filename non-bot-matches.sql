@@ -51,3 +51,6 @@ GROUP BY "MatchId"
 ) m ON ru."MatchId" = m."MatchId"
 LEFT JOIN "Match" nm ON ru."MatchId" = nm."Id"
 ORDER BY "is_real_match" DESC;
+
+
+// This query was created to capture only player-versus-player (PvP) matches played between users.
