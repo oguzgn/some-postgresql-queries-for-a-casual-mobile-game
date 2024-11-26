@@ -120,3 +120,5 @@ ORDER BY
   sessions.Year ASC,
   sessions.Month ASC,
   sessions.MonthlySessions DESC;
+
+// I had created daily KPIs, but it would be incorrect to evaluate daily data on a monthly basis because each data point was grouped separately by day. If we aggregate them monthly, we wouldn’t be able to count many metrics, such as users, as unique. Therefore, tracking on a monthly and weekly basis separately would be more effective for understanding unique user behavior in these periods.
