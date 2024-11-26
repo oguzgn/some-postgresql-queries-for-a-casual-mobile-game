@@ -52,3 +52,6 @@ from
 	ds
 left join au on
 	ds."UserId" = au."Id"
+
+
+// This code displays the percentage of players who continue playing the game on a daily basis as cohorts. This allows us to perform various analyses, such as retention and churn. The code also includes breakdowns by country and device, enabling more detailed analyses.
