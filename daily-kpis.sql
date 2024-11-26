@@ -84,3 +84,5 @@ ON
   AND sessions.DeviceType = orders.DeviceType
 ORDER BY
   sessions.Date ASC;
+
+// This code allows us to track various KPIs on a daily basis. Additionally, even though it is not visible here, it lays the foundation for many calculated fields in Looker Studio.
