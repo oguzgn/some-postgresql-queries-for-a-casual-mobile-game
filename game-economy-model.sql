@@ -269,3 +269,4 @@ from
 left join au on
     gem."UserId" = au."userid"
 
+// As the name suggests, this code was created to monitor the in-game economy and its trends. Many updates are made within the game, but how do these changes impact the game economy? All assets flowing in and out, from different sources and with varying exchange rates, are collected and grouped to provide a comprehensive view.
