@@ -48,3 +48,5 @@ FROM
     ms
 LEFT JOIN
     au ON ms.UserId = au."Id";
+
+// With this code, players are grouped based on various match segmenters, and the general characteristics of users within each group are analyzed. It also allows us to observe the impact of players' match-playing habits on other in-game factors.
