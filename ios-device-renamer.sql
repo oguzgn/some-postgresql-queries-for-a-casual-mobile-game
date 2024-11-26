@@ -131,3 +131,6 @@ CASE DeviceModel
     WHEN 'iPad14,5' THEN 'iPad Pro 12.9 inch 6th Gen (WiFi)'
     WHEN 'iPad14,6' THEN 'iPad Pro 12.9 inch 6th Gen (WiFi+Cellular)'
 Else DeviceModel END As DeviceModel 
+
+
+// If you have the device model but don't know the device name and want to find out, this code is perfect for you!
