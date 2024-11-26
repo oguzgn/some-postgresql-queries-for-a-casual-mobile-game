@@ -126,3 +126,6 @@ FROM
   order_activity
 ORDER BY
   hour_time_diff DESC;
+
+
+// This query is designed to understand user behavior trends, such as how many matches were played, how much money was spent, and how much shopping was done within the first few hours of playing the game (for example, during the first 72 and 144 hours). This helps in developing strategies based on those insights.
