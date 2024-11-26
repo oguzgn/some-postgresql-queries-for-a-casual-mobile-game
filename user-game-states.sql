@@ -40,3 +40,6 @@ SELECT ugs.*,
        au."DeviceModel"
 FROM ugs
 LEFT JOIN au ON ugs."UserId" = au."Id"
+
+  
+// This query groups certain user-based data and provides insights into total matches, total purchases, total upgrades, and other similar metrics for each user.
