@@ -179,3 +179,4 @@ left join camp on
 	
 	
 	
+// Here, you can see the model I built to track users who joined our game through specific campaigns. This helps us identify which campaign has a higher retention rate.
