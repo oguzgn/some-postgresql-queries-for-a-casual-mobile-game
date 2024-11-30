@@ -18,7 +18,7 @@ WITH ugs AS
      (SELECT inv."UserId",
              SUM(inv."Level" - coalesce(card."InitialLevel", 0)) AS "TotalUpgrades"
       FROM "Inventory" inv
-      LEFT JOIN "NsCard" card ON card."Id" = inv."CardId"
+      LEFT JOIN "Card" card ON card."Id" = inv."CardId"
       WHERE inv."CardId" IS NOT NULL
         AND inv."Level" >= coalesce(card."InitialLevel", 0)
       GROUP BY inv."UserId"
